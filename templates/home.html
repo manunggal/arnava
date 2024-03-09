@@ -1,0 +1,73 @@
+<!DOCTYPE HTML>
+<!--
+	Eventually by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+{% load static %}
+<html>
+	<head>
+		<title>Arnava</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="{% static 'assets/css/main.css' %}" />
+	</head>
+	<body class="is-preload">
+
+		<!-- Header -->
+			<header id="header">
+				<h1>Arnava</h1>
+                <h4>Pioneering Technical Consultation for the Maritime Industry</h4>
+				<p> At Arnava.co, we are at the forefront of innovation and sustainability within the maritime sector. <br />
+                    Specializing in energy and surveillance, our mission is to drive the industry forward through technical excellence and strategic insights.
+				</p>
+
+                <div id="bg" 
+                    data-bg01="{% static 'assets/images/bg01.jpg' %}" 
+                    data-bg02="{% static 'assets/images/bg02.jpg' %}" 
+                    data-bg03="{% static 'assets/images/bg03.jpg' %}">
+                </div>
+
+			</header>
+
+            <div class="info-contact">
+				<p>Interested in learning more about our services? <br>
+				Reach out to us at <a href="mailto:contact@arnava.co" class="email-link">contact@arnava.co</a> and let's get the conversation started!</p>
+			</div>
+			  
+			
+			<!-- <p>For more info, <a href="mailto:contact@arnava.co">contact@arnava.co</a></p> -->
+
+
+		<!-- Signup Form -->
+			<!-- <form id="signup-form" method="post" action="#">
+				<input type="email" name="email" id="email" placeholder="Email Address" />
+				<input type="submit" value="Sign Up" />
+			</form> -->
+
+		<!-- Footer -->
+			<footer id="footer">
+				<!-- <ul class="icons">
+					<li><a href="#" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
+					<li><a href="#" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
+					<li><a href="#" class="icon brands fa-github"><span class="label">GitHub</span></a></li>
+					<li><a href="#" class="icon fa-envelope"><span class="label">Email</span></a></li>
+				</ul> -->
+				<ul class="copyright">
+					<li>&copy; arnava</li><li>Credits: <a href="http://html5up.net">HTML5 UP</a></li>
+				</ul>
+			</footer>
+
+		<!-- Scripts -->
+            <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+            <script>
+                var bgImages = {
+                    'bg01': "{% static 'assets/images/bg01.jpg' %}",
+                    'bg02': "{% static 'assets/images/bg02.jpg' %}",
+                    'bg03': "{% static 'assets/images/bg03.jpg' %}"
+                };
+            </script>
+			<script src="{% static 'assets/js/main.js' %}"></script>
+
+	</body>
+</html>
